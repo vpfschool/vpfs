@@ -422,7 +422,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 };
 
                 // NOTE: Replace this string with your deployed Google Apps Script Web App URL
-             const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbYyS-zXJ4HbBjbK_Gtrfl3VPU-AO76dtMIuwj2PKOE016rWLaRcaN-8f7IFH4mvKkl/exec";                
+             const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyYs-zXJ4HbBjbK_Gtrfl3VPU-AO76dtMIuwj2PKOE016rWLaRcaN-8f7lFH4mvKkI/exec";          
                 // Send data to Apps Script backend
                 const response = await fetch(GOOGLE_SCRIPT_URL, {
                     method: "POST",
