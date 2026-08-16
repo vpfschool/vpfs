@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>VP Foundation School - Richi Village, Jollang, Itanagar | VP Foundation School</title>
+    <meta name="description" content="VP Foundation School in Richi Village, Jollang, Itanagar. Admissions open for Playgroup, Nursery, LKG & UKG.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo/favicon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <p>Welcome to Bachpan...</p>
+        </div>
+    </div>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-actions">
+        <a href="https://wa.me/916009843841?text=Hello%20Bachpan%20Richi%20Village,%20I%20want%20to%20inquire%20about%20admissions." target="_blank" class="floating-btn whatsapp" aria-label="Chat on WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="tel:+916009843841" class="floating-btn call" aria-label="Call Us Now">
+            <i class="fa-solid fa-phone"></i>
+        </a>
+        <button id="backToTop" class="floating-btn top-btn" aria-label="Back to Top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <!-- Header Section -->
+    <header id="header" class="header">
+        <div class="top-bar">
+            <div class="container top-bar-container">
+                <div class="top-info">
+                    <span><i class="fa-solid fa-location-dot"></i> Richi Village, Jollang-Chimpu Bypass Rd, Itanagar</span>
+                    <span><i class="fa-solid fa-phone"></i> +91 6009843841</span>
+                    <span><i class="fa-solid fa-clock"></i> Mon - Sat: 9:00 AM - 5:00 PM</span>
+                </div>
+                <div class="top-socials">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container navbar-container">
+                <a href="#hero" class="brand-logo">
+                    <img src="assets/images/logo/logo.png" alt="VP Foundation School Logo" class="logo-img">
+                </a>
+                <div class="nav-menu" id="navMenu">
+                    <ul class="nav-list">
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#academics" class="nav-link">Academics</a></li>
+                        <li><a href="#campus" class="nav-link">Campus</a></li>
+                        <li class="nav-dropdown">
+                            <a href="#noticeboard" class="nav-link">Notice Board <i class="fa-solid fa-caret-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item" id="openAnnouncement1Modal">Announcement 1</a></li>
+                                <li><a href="#" class="dropdown-item" id="openAnnouncement2Modal">Announcement 2</a></li>
+                                <li><a href="#" class="dropdown-item" id="openDownloadsModal">Downloads</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                    <a href="#admission" class="btn btn-primary nav-cta">Apply Now</a>
+                </div>
+                <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-bg-image" style="background-image: url('assets/images/hero/hero-banner.webp');"></div>
+            
+            <div class="vibrant-blobs">
+                <div class="blob-color blob-yellow"></div>
+                <div class="blob-color blob-pink"></div>
+                <div class="blob-color blob-orange"></div>
+            </div>
+
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="badge hero-badge"><i class="fa-solid fa-graduation-cap"></i> VP Foundation School</span>
+                    <h2 style="font-family: 'Brush Script MT', cursive; font-size: 1.8rem; color: darkblue; margin-bottom: 20px; font-weight: 500;">Educating Skillfully, inspiring mindfully</h2>
+                    <h1 class="hero-title">Every Child is <br class="mobile-break"><span class="text-gradient">Special</span></h1>
+                    <p class="hero-subtitle">Where Learning Begins With Joy. Providing world-class early childhood education with Smart Classes, Speak-O-Kit, VR & Robotics in Richi Village, Jollang, Itanagar.</p>
+                    
+                    <div class="hero-actions">
+                        <a href="#admission" class="btn btn-primary btn-lg">Apply Now <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn btn-secondary btn-lg"><i class="fa-solid fa-calendar-check"></i> Book School Tour</a>
+                    </div>
+
+                    <div class="hero-trust">
+                        <div class="trust-item">
+                            <span class="trust-num counter" data-target="4.9">0</span>
+                            <span class="trust-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                            <span class="trust-label">65+ Parents Reviews</span>
+                        </div>
+                        <div class="trust-item">
+                            <span class="trust-num counter" data-target="100">0</span>%
+                            <span class="trust-label">Safe Campus</span>
+                        </div>
+                        <div class="trust-item">
+                            <span class="trust-num counter" data-target="15">0</span>+
+                            <span class="trust-label">Years Heritage</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="custom-shape-divider-bottom">
+                <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M0,0 C150,90 350,-40 500,65 C650,170 900,10 1200,40 L1200,120 L0,120 Z" fill="#ffffff"></path>
+                </svg>
+            </div>
+        </section>
+
+        <!-- About Section (Merged VPFS & About Us) -->
+        <section id="about" class="section about-section bg-light">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="sub-heading">Our Story & Advantage</span>
+                    <h2>About VPFS Jollang</h2>
+                    <div class="title-bar"></div>
+                </div>
+                
+                <!-- The Origin -->
+                <div class="about-grid mb-5">
+                    <div class="about-image-col">
+                        <div class="about-img-box">
+                            <img src="assets/images/facilities/facility-01.webp" alt="Bachpan Itanagar School Campus" class="about-img">
+                            <div class="experience-badge">
+                                <h3>4.9 ★</h3>
+                                <p>Top Rated Preschool in Itanagar</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-content-col">
+                        <h3>VP Foundation School – Richi Village, Jollang</h3>
+                        <p class="lead-text">Brought to Arunachal Pradesh by <strong>Smti. Taba Vinita Debia & Shri. Debia Padang.</strong>, VP Foundation School in Richi Village, Jollang is dedicated to fostering holistic growth in a safe, hygienic, and mentally stimulating environment.</p>
+                        <p>We combine time-tested Montessori principles with cutting-edge tech innovations like VR, Robotics, and Speak-O-Pen. Our school ensures every child develops intellectual curiosity, emotional intelligence, physical coordination, and vibrant social skills.</p>
+                        
+                        <div class="about-cards-mini mt-4">
+                            <div class="mini-card">
+                                <i class="fa-solid fa-bullseye"></i>
+                                <div>
+                                    <h4>Our Mission</h4>
+                                    <p>To provide experiential and value-driven early childhood education that celebrates every child's individual style of learning.</p>
+                                </div>
+                            </div>
+                            <div class="mini-card">
+                                <i class="fa-solid fa-eye"></i>
+                                <div>
+                                    <h4>Our Vision</h4>
+                                    <p>To empower young learners with foundational life skills, creative thinking, and confidence to succeed.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="core-values mt-4">
+                            <h4>Core Values</h4>
+                            <div class="tags-wrapper">
+                                <span class="tag"><i class="fa-solid fa-shield-heart"></i> Safety First</span>
+                                <span class="tag"><i class="fa-solid fa-face-smile"></i> Joyful Learning</span>
+                                <span class="tag"><i class="fa-solid fa-hands-holding-child"></i> Individual Care</span>
+                                <span class="tag"><i class="fa-solid fa-lightbulb"></i> Innovation</span>
+                                <span class="tag"><i class="fa-solid fa-leaf"></i> Hygiene & Health</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- The Differentiators -->
+                <div class="section-title text-center mt-5 pt-5">
+                    <span class="sub-heading">Why Parents Choose Us</span>
+                    <h3>The VPFS Advantage</h3>
+                    <p>Pioneering early childhood development through unique tech-integrated methodologies.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card bg-pink">
+                        <div class="feature-icon bg-pink"><i class="fa-solid fa-tv"></i></div>
+                        <h3>Smart Classes</h3>
+                        <p>Tech-enabled interactive classrooms mapped directly to our exclusive SPROUT early curriculum.</p>
+                    </div>
+                    <div class="feature-card bg-yellow">
+                        <div class="feature-icon bg-yellow"><i class="fa-solid fa-pen-fancy"></i></div>
+                        <h3>Speak-O-Kit</h3>
+                        <p>Revolutionary audio pen technology that helps children hear, pronounce, and learn independently.</p>
+                    </div>
+                    <div class="feature-card bg-purple">
+                        <div class="feature-icon bg-purple"><i class="fa-solid fa-robot"></i></div>
+                        <h3>Robotics & VR</h3>
+                        <p>Early STEAM learning with Robotime kits and immersive Virtual Reality educational modules.</p>
+                    </div>
+                    <div class="feature-card bg-blue">
+                        <div class="feature-icon bg-blue"><i class="fa-solid fa-shapes"></i></div>
+                        <h3>Montessori Learning</h3>
+                        <p>Child-centered activity learning using high-quality sensory tools and self-directed activity sets.</p>
+                    </div>
+                    <div class="feature-card bg-mint">
+                        <div class="feature-icon bg-mint"><i class="fa-solid fa-cubes"></i></div>
+                        <h3>Concept Rooms</h3>
+                        <p>Dedicated AV, Ball, Doll, and Dining rooms designed to foster distinct cognitive and social domains.</p>
+                    </div>
+                    <div class="feature-card bg-orange">
+                        <div class="feature-icon bg-orange"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                        <h3>VPFS 360° App</h3>
+                        <p>Real-time parent app for academic tracking, attendance, teacher communication, and notices.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academics Section (Merged Programs & Curriculum) -->
+        <section id="academics" class="section programs-section">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="sub-heading">Academic Offerings</span>
+                    <h2>Our Educational Programs</h2>
+                    <div class="title-bar"></div>
+                </div>
+                <div class="programs-grid mb-5">
+                    <div class="program-card">
+                        <div class="program-img-wrapper">
+                            <img src="assets/images/curriculum/curriculum-01.webp" alt="Playgroup Class" class="program-img">
+                            <span class="age-badge">2.0 – 3.0 Years</span>
+                        </div>
+                        <div class="program-content">
+                            <h3>Playgroup (Level 1)</h3>
+                            <p class="program-duration"><i class="fa-regular fa-clock"></i> 2.5 Hours Daily</p>
+                            <p>Introduction to social routine, sensory exploration, language building, and basic motor skills through play.</p>
+                            <a href="#admission" class="btn btn-outline btn-block mt-3">Enroll in Playgroup</a>
+                        </div>
+                    </div>
+                    <div class="program-card highlight-card">
+                        <div class="program-img-wrapper">
+                            <img src="assets/images/curriculum/curriculum-02.webp" alt="Nursery Class" class="program-img">
+                            <span class="age-badge bg-orange">3.0 – 4.0 Years</span>
+                        </div>
+                        <div class="program-content">
+                            <h3>Nursery (Level 2)</h3>
+                            <p class="program-duration"><i class="fa-regular fa-clock"></i> 3.0 Hours Daily</p>
+                            <p>Building vocabulary, basic numbers, creative arts, Speak-O-Kit interaction, and emotional expression.</p>
+                            <a href="#admission" class="btn btn-primary btn-block mt-3">Enroll in Nursery</a>
+                        </div>
+                    </div>
+                    <div class="program-card">
+                        <div class="program-img-wrapper">
+                            <img src="assets/images/curriculum/curriculum-03.webp" alt="LKG Class" class="program-img">
+                            <span class="age-badge bg-purple">4.0 – 5.0 Years</span>
+                        </div>
+                        <div class="program-content">
+                            <h3>LKG (Lower Kindergarten)</h3>
+                            <p class="program-duration"><i class="fa-regular fa-clock"></i> 3.5 Hours Daily</p>
+                            <p>Structured learning in reading, writing, mathematical concepts, environmental science, and creative arts.</p>
+                            <a href="#admission" class="btn btn-outline btn-block mt-3">Enroll in LKG</a>
+                        </div>
+                    </div>
+                    <div class="program-card">
+                        <div class="program-img-wrapper">
+                            <img src="assets/images/curriculum/curriculum-04.webp" alt="UKG Class" class="program-img">
+                            <span class="age-badge bg-mint">5.0 – 6.0 Years</span>
+                        </div>
+                        <div class="program-content">
+                            <h3>UKG (Upper Kindergarten)</h3>
+                            <p class="program-duration"><i class="fa-regular fa-clock"></i> 4.0 Hours Daily</p>
+                            <p>Preparing children seamlessly for formal primary schooling with advanced language, science, and math skills.</p>
+                            <a href="#admission" class="btn btn-outline btn-block mt-3">Enroll in UKG</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-title text-center mt-5 pt-5">
+                    <span class="sub-heading">SPROUT Curriculum</span>
+                    <h3>Holistic Learning Domains</h3>
+                </div>
+                <div class="curriculum-grid">
+                    <div class="curr-box bg-blue">
+                        <div class="icon-wrapper bg-blue"><i class="fa-solid fa-book-open"></i></div>
+                        <h4>Early Literacy</h4>
+                        <p>Phonetics, vocabulary, story comprehension, and reading confidence.</p>
+                    </div>
+                    <div class="curr-box bg-orange">
+                        <div class="icon-wrapper bg-orange"><i class="fa-solid fa-calculator"></i></div>
+                        <h4>Numeracy</h4>
+                        <p>Number sense, counting, spatial relations, shapes, and patterns.</p>
+                    </div>
+                    <div class="curr-box bg-pink">
+                        <div class="icon-wrapper bg-pink"><i class="fa-solid fa-comments"></i></div>
+                        <h4>English Communication</h4>
+                        <p>Verbal fluency, active listening, and conversational practice.</p>
+                    </div>
+                    <div class="curr-box bg-purple">
+                        <div class="icon-wrapper bg-purple"><i class="fa-solid fa-palette"></i></div>
+                        <h4>Creative Arts</h4>
+                        <p>Painting, craft, origami, pottery, and imaginative expression.</p>
+                    </div>
+                    <div class="curr-box bg-yellow">
+                        <div class="icon-wrapper bg-yellow"><i class="fa-solid fa-music"></i></div>
+                        <h4>Music & Dance</h4>
+                        <p>Rhythm, movement, vocal exercise, and cultural performances.</p>
+                    </div>
+                    <div class="curr-box bg-mint">
+                        <div class="icon-wrapper bg-mint"><i class="fa-solid fa-masks-theater"></i></div>
+                        <h4>Storytelling & Drama</h4>
+                        <p>Puppet shows, roleplay, and theatrical expression.</p>
+                    </div>
+                    <div class="curr-box bg-orange">
+                        <div class="icon-wrapper bg-orange"><i class="fa-solid fa-child-reaching"></i></div>
+                        <h4>Motor Skill Development</h4>
+                        <p>Fine motor grip, gross motor coordination, and equilibrium balance.</p>
+                    </div>
+                    <div class="curr-box bg-blue">
+                        <div class="icon-wrapper bg-blue"><i class="fa-solid fa-handshake"></i></div>
+                        <h4>Social & Life Skills</h4>
+                        <p>Sharing, empathy, dining manners, self-care, and teamwork.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Campus Section (Merged Facilities, Gallery, Teachers) -->
+        <section id="campus" class="section facilities-section bg-light">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="sub-heading">World Class Infrastructure</span>
+                    <h2>Life on Campus</h2>
+                    <div class="title-bar"></div>
+                </div>
+                
+                <div class="facilities-grid mb-5">
+                    <div class="facility-card">
+                        <img src="assets/images/facilities/facility-01.webp" alt="Smart Classroom" class="facility-img">
+                        <div class="facility-overlay">
+                            <h3>Smart Classrooms</h3>
+                            <p>Interactive displays and colorful ergonomic furniture.</p>
+                        </div>
+                    </div>
+                    <div class="facility-card">
+                        <img src="assets/images/facilities/facility-02.webp" alt="Indoor Play Area" class="facility-img">
+                        <div class="facility-overlay">
+                            <h3>Indoor Play Area</h3>
+                            <p>Padded play area filled with soft toys and ball pits.</p>
+                        </div>
+                    </div>
+                    <div class="facility-card">
+                        <img src="assets/images/facilities/facility-03.webp" alt="Outdoor Playground" class="facility-img">
+                        <div class="facility-overlay">
+                            <h3>Outdoor Playground</h3>
+                            <p>Secure green play zone for sports and outdoor activities.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-title text-center mt-5 pt-5">
+                    <span class="sub-heading">Campus Activity</span>
+                    <h3>Photo Gallery</h3>
+                </div>
+                
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="campus">Campus</button>
+                    <button class="filter-btn" data-filter="classroom">Classrooms</button>
+                    <button class="filter-btn" data-filter="activities">Activities</button>
+                    <button class="filter-btn" data-filter="events">Events</button>
+                </div>
+
+                <div class="gallery-grid mb-5" id="galleryGrid">
+                    <div class="gallery-item" data-category="campus">
+                        <img src="assets/images/gallery/gallery-01.webp" alt="Bachpan Campus Exterior" loading="lazy">
+                        <div class="gallery-hover"><i class="fa-solid fa-magnifying-glass-plus"></i><span>Campus Exterior</span></div>
+                    </div>
+                    <div class="gallery-item" data-category="campus">
+                        <img src="assets/images/gallery/cp-1.webp" alt="Bachpan Campus Exterior" loading="lazy">
+                        <div class="gallery-hover"><i class="fa-solid fa-magnifying-glass-plus"></i><span>Campus Exterior</span></div>
+                    </div>
+                    <div class="gallery-item" data-category="campus">
+                        <img src="assets/images/gallery/cp-2.webp" alt="Bachpan Campus Exterior" loading="lazy">
+                        <div class="gallery-hover"><i class="fa-solid fa-magnifying-glass-plus"></i><span>Campus Exterior</span></div>
+                    </div>
+                     <div class="gallery-item" data-category="campus">
+                        <img src="assets/images/gallery/cp-3.webp" alt="Bachpan Campus Exterior" loading="lazy">
+                        <div class="gallery-hover"><i class="fa-solid fa-magnifying-glass-plus"></i><span>Campus Exterior</span></div>
+                    </div>
+                    <div class="gallery-item" data-category="classroom">
+                        <img src="assets/images/gallery/gallery-02.webp" alt="Smart Class Session" loading="lazy">
+                        <div class="gallery-hover"><i class="fa-solid fa-magnifying-glass-plus"></i><span>Smart Class Session</span></div>
+                    </div>
+                    <div class="gallery-item" data-category="activities">
+                        <img src="assets/images/gallery/gallery-03.webp" alt="Speak-O-Pen Learning" loading="lazy">
+                        <div class="gallery-hover"><i class="fa-solid fa-magnifying-glass-plus"></i><span>Speak-O-Pen Activity</span></div>
+                    </div>
+                    <div class="gallery-item" data-category="activities">
+                        <img src="assets/images/gallery/gallery-04.webp" alt="Robotics Module" loading="lazy">
+                        <div class="gallery-hover"><i class="fa-solid fa-magnifying-glass-plus"></i><span>Robotics & STEM</span></div>
+                    </div>
+                    <div class="gallery-item" data-category="events">
+                        <img src="assets/images/gallery/gallery-05.webp" alt="Annual Cultural Celebration" loading="lazy">
+                        <div class="gallery-hover"><i class="fa-solid fa-magnifying-glass-plus"></i><span>Cultural Festival</span></div>
+                    </div>
+                    <div class="gallery-item" data-category="campus">
+                        <img src="assets/images/gallery/gallery-06.webp" alt="Outdoor Play Time" loading="lazy">
+                        <div class="gallery-hover"><i class="fa-solid fa-magnifying-glass-plus"></i><span>Outdoor Play Area</span></div>
+                    </div>
+                </div>
+
+                <div class="section-title text-center mt-5 pt-5">
+                    <span class="sub-heading">Empathetic Mentors</span>
+                    <h3>Meet Our Educators</h3>
+                </div>
+                <div class="teachers-grid">
+                    <div class="teacher-card">
+                        <img src="assets/images/teachers/teacher-01.webp" alt="Principal / Center Head" class="teacher-img">
+                        <div class="teacher-info">
+                            <h3>Mrs. T. Nabam</h3>
+                            <span class="qualification">Center Head & Academic Director</span>
+                            <p class="exp"><i class="fa-solid fa-briefcase"></i> 12+ Years Experience in NTT</p>
+                            <p class="desc">Dedicated to creating a loving, holistic learning environment for every child in Itanagar.</p>
+                        </div>
+                    </div>
+                    <div class="teacher-card">
+                        <img src="assets/images/teachers/teacher-02.webp" alt="Senior Nursery Teacher" class="teacher-img">
+                        <div class="teacher-info">
+                            <h3>Ms. K. Pertin</h3>
+                            <span class="qualification">Lead Early Years Educator</span>
+                            <p class="exp"><i class="fa-solid fa-briefcase"></i> 7+ Years Experience</p>
+                            <p class="desc">Specializes in Montessori learning, phonetics, and creative storytelling techniques.</p>
+                        </div>
+                    </div>
+                    <div class="teacher-card">
+                        <img src="assets/images/teachers/teacher-03.webp" alt="STEAM & Smart Class Teacher" class="teacher-img">
+                        <div class="teacher-info">
+                            <h3>Mrs. R. Yadar</h3>
+                            <span class="qualification">STEAM & Digital Learning Instructor</span>
+                            <p class="exp"><i class="fa-solid fa-briefcase"></i> 5+ Years Experience</p>
+                            <p class="desc">Guides children through Speak-O-Pen, VR immersion, and early robotics kits.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="section testimonials-section">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="sub-heading">Parent Feedback</span>
+                    <h2>What Parents Say About Us</h2>
+                    <div class="title-bar"></div>
+                </div>
+                <div class="testimonial-slider">
+                    <div class="testimonial-card active">
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p class="review-text">"Bachpan Jollang is an exceptional preschool in Itanagar. My daughter loves going to school every morning! The Speak-O-Kit has improved her English vocabulary remarkably. The teachers are extremely caring."</p>
+                        <div class="parent-profile">
+                            <img src="assets/images/testimonials/parent-01.webp" alt="Parent Photo">
+                            <div>
+                                <h4>M. Tana</h4>
+                                <span>Parent of Kago (Nursery)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p class="review-text">"The safety standards, hygiene, and smart classroom features are top tier. We receive daily updates on the Bachpan 360 app. Truly the best play school choice in the Richi Village area."</p>
+                        <div class="parent-profile">
+                            <img src="assets/images/testimonials/parent-02.webp" alt="Parent Photo">
+                            <div>
+                                <h4>B. Sora</h4>
+                                <span>Parent of Nyron (UKG)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="prev-slide" id="prevTestimonial" aria-label="Previous Testimonial"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button class="next-slide" id="nextTestimonial" aria-label="Next Testimonial"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Admission Form Section -->
+        <section id="admission" class="section admission-section bg-light">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="sub-heading">Easy Registration</span>
+                    <h2>Online Admission Form</h2>
+                    <div class="title-bar"></div>
+                </div>
+                <div class="form-wizard-wrapper">
+                    <form id="admissionForm">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label>Student Name *</label>
+                                <input type="text" id="studentName" required placeholder="e.g. Kago Tana">
+                            </div>
+                            <div class="form-group">
+                                <label>Date of Birth *</label>
+                                <input type="date" id="dob" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Gender *</label>
+                                <select id="gender" required>
+                                    <option value="">Select Gender</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Blood Group</label>
+                                <select id="bloodGroup">
+                                    <option value="">Select</option>
+                                    <option value="A+">A+</option>
+                                    <option value="A-">A-</option>
+                                    <option value="B+">B+</option>
+                                    <option value="B-">B-</option>
+                                    <option value="O+">O+</option>
+                                    <option value="O-">O-</option>
+                                    <option value="AB+">AB+</option>
+                                    <option value="AB-">AB-</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Applying For Class *</label>
+                                <select id="applyingClass" required>
+                                    <option value="">Select Class</option>
+                                    <option value="Kindergarten">Kindergarten</option>
+                                    <option value="Class 1">Class 1</option>
+                                    <option value="Class 2">Class 2</option>
+                                    <option value="Class 3">Class 3</option>
+                                    <option value="Class 4">Class 4</option>
+                                    <option value="Class 5">Class 5</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Father Name *</label>
+                                <input type="text" id="fatherName" required placeholder="Father's Full Name">
+                            </div>
+                            <div class="form-group">
+                                <label>Mother Name *</label>
+                                <input type="text" id="motherName" required placeholder="Mother's Full Name">
+                            </div>
+                            <div class="form-group">
+                                <label>Primary Phone *</label>
+                                <input type="tel" id="primaryPhone" required placeholder="+91 6009843841">
+                            </div>
+                            <div class="form-group">
+                                <label>WhatsApp Number *</label>
+                                <div style="display: flex; flex-direction: column; gap: 8px;">
+                                    <input type="tel" id="whatsappNumber" required placeholder="+91 6009843841">
+                                    <label style="font-size: 0.85rem; display: flex; align-items: center; gap: 6px; cursor: pointer; color: var(--text-dark);">
+                                        <input type="checkbox" id="sameAsPrimary"> Same as Primary Phone
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input type="email" id="emailAddress" placeholder="email@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label>Permanent Address *</label>
+                                <textarea id="permanentAddress" rows="2" required placeholder="Full residential address"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label>Hostel Required *</label>
+                                <select id="hostelRequired" required>
+                                    <option value="">Select Option</option>
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                            <div class="form-group" id="hostelTypeGroup" style="display: none;">
+                                <label>Hostel Type</label>
+                                <select id="hostelType" readonly style="background-color: #f5f5f5; pointer-events: none;">
+                                    <!-- Auto-populated via JS -->
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Student Photo *</label>
+                                <input type="file" id="photoUpload" accept="image/*" required>
+                                <small style="font-size: 0.75rem; color: var(--text-muted);">Please upload a clear passport-size photo.</small>
+                            </div>
+                            <div class="form-group">
+                                <label>Birth Certificate *</label>
+                                <input type="file" id="birthCertUpload" accept="application/pdf, image/*" required>
+                                <small style="font-size: 0.75rem; color: var(--text-muted);">Upload PDF or Image file.</small>
+                            </div>
+                        </div>
+                        <button type="submit" id="submitAdmissionBtn" class="btn btn-primary btn-block mt-4"><i class="fa-solid fa-paper-plane"></i> Submit Application</button>
+                    </form>
+                    
+                    <!-- Success Message Block -->
+                    <div id="successMessage" style="display: none; text-align: center; padding: 40px 20px;">
+                        <i class="fa-solid fa-circle-check" style="font-size: 4rem; color: var(--mint-green); margin-bottom: 20px;"></i>
+                        <h3 style="color: var(--deep-purple); font-family: var(--font-heading); font-size: 2rem; margin-bottom: 10px;">Application Submitted Successfully!</h3>
+                        <p style="font-size: 1.1rem; color: var(--text-dark);">Thank you for choosing VP Foundation School. Our administration will contact you shortly regarding the fees structure and further admission criteria.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="section faq-section">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="sub-heading">Common Queries</span>
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="title-bar"></div>
+                </div>
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>What are the age criteria for Playgroup and Nursery admissions?</h4>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Children aged 2 to 3 years are eligible for Playgroup. For Nursery, the child should be between 3 to 4 years old as of the start of the academic session.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>What are the school operating hours for Bachpan Richi Village?</h4>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our school functions from Monday to Saturday between 9:00 AM and 5:00 PM. Classroom hours vary depending on the grade level.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>How can parents track their child's daily activities?</h4>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Parents get access to the official Bachpan 360° mobile app, which provides regular updates on attendance, activities, photos, notices, and direct teacher messaging.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section bg-light">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="sub-heading">Get in Touch</span>
+                    <h2>Contact Us Today</h2>
+                    <div class="title-bar"></div>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info-card">
+                        <h3>Visit Our Campus</h3>
+                        <div class="info-item mt-4">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>Richi Village, Jollang-Chimpu Bypass Road Dist, Itanagar, Arunachal Pradesh - 791113</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>
+                                <h4>Phone Number</h4>
+                                <p>+91 6009843841 / 06009843841</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <h4>Email Address</h4>
+                                <p>itanagar.bachpan@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-card">
+                        <h3>Send Us a Message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" required placeholder="Your full name">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" required placeholder="Phone Number">
+                            </div>
+                            <div class="form-group">
+                                <textarea rows="4" required placeholder="How can we assist you?"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox Modal (For Gallery) -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightboxImg" alt="Enlarged View">
+        <div id="lightboxCaption" class="lightbox-caption"></div>
+    </div>
+
+    <!-- Announcement 1 Modal -->
+    <div id="announcement1Modal" class="modal-overlay">
+        <div class="modal-content pdf-modal">
+            <div class="modal-header">
+                <h3 style="margin: 0;">Latest Announcement</h3>
+                <div class="modal-actions">
+                    <a href="assets/notice-board/announcement-1.pdf" download="announcement-1.pdf" class="btn btn-sm btn-outline" id="downloadAnn1Btn"><i class="fa-solid fa-download"></i> Save PDF</a>
+                    <span class="modal-close" id="closeAnnouncement1Modal">&times;</span>
+                </div>
+            </div>
+            <div class="modal-body pdf-container">
+                <embed src="assets/notice-board/announcement-1.pdf" type="application/pdf" width="100%" height="100%">
+            </div>
+        </div>
+    </div>
+
+    <!-- Announcement 2 Modal -->
+    <div id="announcement2Modal" class="modal-overlay">
+        <div class="modal-content pdf-modal">
+            <div class="modal-header">
+                <h3 style="margin: 0;">Latest Announcement</h3>
+                <div class="modal-actions">
+                    <a href="assets/notice-board/announcement-2.pdf" download="announcement-2.pdf" class="btn btn-sm btn-outline" id="downloadAnn2Btn"><i class="fa-solid fa-download"></i> Save PDF</a>
+                    <span class="modal-close" id="closeAnnouncement2Modal">&times;</span>
+                </div>
+            </div>
+            <div class="modal-body pdf-container">
+                <embed src="assets/notice-board/announcement-2.pdf" type="application/pdf" width="100%" height="100%">
+            </div>
+        </div>
+    </div>
+
+    <!-- Downloads Modal -->
+    <div id="downloadsModal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 style="margin: 0;">School Downloads</h3>
+                <span class="modal-close" id="closeDownloadsModal">&times;</span>
+            </div>
+            <div class="modal-body downloads-modal-grid">
+                <div class="download-card">
+                    <i class="fa-solid fa-file-pdf text-pink"></i>
+                    <h4>Admission Form</h4>
+                    <a href="assets/notice-board/download-AdmissionForm.pdf" download="download-AdmissionForm.pdf" class="btn btn-sm btn-outline mt-3" id="downloadAdmitFormBtn"><i class="fa-solid fa-download"></i> Download</a>
+                </div>
+                <div class="download-card">
+                    <i class="fa-solid fa-file-pdf text-blue"></i>
+                    <h4>School Prospectus</h4>
+                    <a href="assets/notice-board/download-School-Prospectus.pdf" download="download-School-Prospectus.pdf" class="btn btn-sm btn-outline mt-3" id="downloadProspectusBtn"><i class="fa-solid fa-download"></i> Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vibrant Playful Footer -->
+    <div class="footer-cloud-divider">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+            <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+            <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <footer class="footer">
+        <div class="container text-center">
+            <img src="assets/images/logo/logo.png" alt="Bachpan Logo" style="height: 100px; margin-bottom: 20px; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));">
+            <p class="footer-credit">Designed &amp; Managed by <a href="https://www.yodude.in" target="_blank">Yo Dude</a> | <a href="https://www.yodude.in" target="_blank">www.yodude.in</a></p>
+            <p>&copy; 2026 VPFS School - Richi Village, Jollang, Itanagar (VP Foundation School). All Rights Reserved.</p>
+            <div class="footer-socials mt-3" style="display: flex; justify-content: center; gap: 15px;">
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
