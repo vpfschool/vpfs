@@ -602,9 +602,17 @@ img { max-width: 100%; height: auto; display: block; }
     .section-title h2 { font-size: 1.8rem; line-height: 1.2; }
     .sub-heading { font-size: 0.8rem; margin-bottom: 4px; }
     
-    /* Compact Grids */
+    /* 2 Columns on Mobile for Features and Curriculum */
+    .features-grid, .curriculum-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    
+    /* Adjusting cards to fit 2-up */
+    .feature-card, .curr-box { padding: 30px 10px 15px 25px; margin-top: 15px; margin-left: 5px; border-radius: 15px 40px 40px 40px; }
+    .feature-icon, .curr-box .icon-wrapper { width: 45px; height: 45px; font-size: 20px; left: -10px; top: -15px; border-width: 2px; }
+    
+    .feature-card h3, .curr-box h4 { font-size: 0.85rem; margin-bottom: 5px; }
+    .feature-card p, .curr-box p { font-size: 0.65rem; line-height: 1.3; }
+    
     .about-grid, .contact-grid { gap: 20px; }
-    .features-grid, .curriculum-grid, .facilities-grid, .gallery-grid { gap: 15px; grid-template-columns: 1fr; }
     
     /* Force 3 Columns on Mobile for Programs */
     .programs-grid { grid-template-columns: repeat(3, 1fr); gap: 10px; }
@@ -614,10 +622,6 @@ img { max-width: 100%; height: auto; display: block; }
     .program-content p { font-size: 0.7rem; line-height: 1.2; margin-bottom: 8px; }
     .program-card .btn { font-size: 0.7rem; padding: 6px 4px; }
     .age-badge { font-size: 0.6rem; padding: 4px 6px; top: 10px; right: 10px; }
-    
-    /* FIX FOR OVERLAPPING BADGE ICONS ON MOBILE */
-    .feature-card, .curr-box { padding: 45px 20px 20px 50px; margin-top: 25px; margin-left: 10px; }
-    .feature-icon, .curr-box .icon-wrapper { width: 60px; height: 60px; font-size: 26px; left: -15px; top: -20px; border-width: 3px; }
     
     .form-grid { grid-template-columns: 1fr; gap: 10px; margin-bottom: 15px; }
     .form-wizard-wrapper, .contact-form-card, .contact-info-card { padding: 20px 15px; }
@@ -644,8 +648,16 @@ img { max-width: 100%; height: auto; display: block; }
     .hero-title { font-size: 2.3rem; }
     .modal-actions .btn { font-size: 0.8rem; padding: 6px 10px; }
     
-    /* Ensure 3 Columns remains strictly active on small phones */
-    .features-grid, .curriculum-grid, .facilities-grid, .gallery-grid { grid-template-columns: 1fr; }
+    .facilities-grid, .gallery-grid { grid-template-columns: 1fr; }
+    
+    /* Keep features and curriculum at 2 columns */
+    .features-grid, .curriculum-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+    .feature-card, .curr-box { padding: 25px 8px 10px 20px; border-radius: 10px 30px 30px 30px; margin-left: 5px;}
+    .feature-icon, .curr-box .icon-wrapper { width: 35px; height: 35px; font-size: 16px; left: -8px; top: -12px;}
+    .feature-card h3, .curr-box h4 { font-size: 0.75rem; }
+    .feature-card p, .curr-box p { font-size: 0.6rem; }
+    
+    /* Ensure 3 Columns remains strictly active on small phones for programs */
     .programs-grid { grid-template-columns: repeat(3, 1fr); gap: 5px; }
     .program-content { padding: 8px 5px; }
     .program-content h3 { font-size: 0.8rem; margin-bottom: 3px; }
